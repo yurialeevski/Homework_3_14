@@ -19,6 +19,7 @@ public class InfoController {
     private String appEnv;
     @GetMapping("/get/appInfo")
     public AppInfo getEmployeeById() {
+        System.out.println(appEnv);
         AppInfo appInfo = appService.getAppInfo(appEnv);
         System.out.println(appInfo);
         return appInfo;
