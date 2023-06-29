@@ -1,5 +1,6 @@
 package ru.skypro.homework.loggerprofiles.service;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import ru.skypro.homework.loggerprofiles.pojo.AppInfo;
 
